@@ -14,8 +14,9 @@ import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatDialogModule } from '@angular/material/dialog';
-import {MatSortModule} from '@angular/material/sort';
-import {MatPaginatorModule} from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   imports: [
@@ -36,7 +37,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatDialogModule,
     MatTabsModule,
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatTableModule,
   ],
   exports: [
     MatButtonModule,
@@ -57,6 +59,7 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatTabsModule,
     MatSortModule,
     MatPaginatorModule,
-  ]
+    MatTableModule,
+  ],
 })
 export class MaterialModule {}
